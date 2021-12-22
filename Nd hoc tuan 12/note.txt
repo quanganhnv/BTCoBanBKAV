@@ -1,0 +1,14 @@
+- Bộ phận trợ giúp người dùng(USER AGENT)
+- Mail server
+- Các giao thức mà các thành phần này dùng để giao tiếp với nhau
+
++ Phân loại giao thức :
+	- Giao thức giữa các mail server:
+		+ SMTP (Simple Mail Transfer Protocol): được các server dùng
+để chuyển thư qua lại với nhau
+	- Giao thức giữa mail server và user agent :
+		+POP3: được user agent sử dụng để lấy thư về từ hộp thư của nó trên server
+		+SMTP: được user agent sử dụng để gửi thư ra server
+		+IMAP: Giống POP3 nhưng có tính năng mới	
+
+Bài này dùng giao thức SMTP:
